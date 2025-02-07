@@ -1,0 +1,49 @@
+# Generelle Python-filer
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.dll
+
+# Virtuelle miljøer
+venv/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook-metadata
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS-spesifikke filer
+.DS_Store
+Thumbs.db
+
+# Loggfiler og debug-filer
+*.log
+*.out
+
+# Miljøfiler (hvis du bruker dotenv)
+.env
+
+# PyCharm og VSCode
+.vscode/
+.idea/
+
+# Kaggle API-nøkkel (hvis du bruker Kaggle)
+kaggle.json
+
+
+datasets/
+*.csv
+*.json
+*.zip
+*.parquet
+*.h5
+*.pkl
+*.db
+*.sqlite3
+*.tsv
+
+
